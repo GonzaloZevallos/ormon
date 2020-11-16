@@ -1,5 +1,5 @@
 {
-  "name": "ormon",
+  "name": "ormson",
   "version": "1.0.0",
   "description": "Artisan ORM for JSON databases",
   "main": "index.js",
@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GonzaloZevallos/ormon.git"
+    "url": "git+https://github.com/GonzaloZevallos/ormson.git"
   },
   "keywords": [],
   "author": "Gonzalo Zevallos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GonzaloZevallos/ormon/issues"
+    "url": "https://github.com/GonzaloZevallos/ormson/issues"
   },
-  "homepage": "https://github.com/GonzaloZevallos/ormon#readme"
+  "homepage": "https://github.com/GonzaloZevallos/ormson#readme"
 }
