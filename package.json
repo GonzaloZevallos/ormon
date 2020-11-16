@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/GonzaloZevallos/ormson.git"
   },
-  "keywords": [],
+  "keywords": [
+    "json",
+    "orm"
+  ],
   "author": "Gonzalo Zevallos",
   "license": "ISC",
   "bugs": {
