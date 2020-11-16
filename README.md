@@ -27,3 +27,14 @@ module.exports = class ModelName extends Ormson {
 ```js script
  const { ModelName } = require('./database/models');
 ```
+
+### Methods
+
+Method                               | Description
+------------------------------------ | --------------------------------------
+**findAll(*option: callback*)**      | Search for multiple instances.
+**findOne(*callback*)**              | Find an instance by condition.
+**findByPk(*id*)**                   | Find an instance by id.
+**create(*data: object*)**           | Create an instance.
+**update(*id, data: object*)**       | Update an instance by id.
+**destroy(*id*)**                    | Delete an instance by id.
