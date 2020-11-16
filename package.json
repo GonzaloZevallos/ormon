@@ -1,6 +1,6 @@
 {
   "name": "ormson",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Artisan ORM for JSON databases",
   "main": "index.js",
   "scripts": {
