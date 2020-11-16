@@ -1,6 +1,6 @@
 {
   "name": "ormson",
-  "version": "1.0.22",
+  "version": "1.0.3",
   "description": "Artisan ORM for JSON databases",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GonzaloZevallos/ormson/issues"
   },
-  "homepage": "https://github.com/GonzaloZevallos/ormson#readme"
+  "homepage": "https://github.com/GonzaloZevallos/ormson#readme",
+  "dependencies": {
+    "validate-types": "^2.3.0"
+  }
 }
