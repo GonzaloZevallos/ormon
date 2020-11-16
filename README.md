@@ -32,7 +32,7 @@ module.exports = class ModelName extends Ormson {
 
 Method                               | Description                           | Example
 ------------------------------------ | ------------------------------------- | --------------------------------------
-**findAll(*option: callback*)**      | Search for multiple instances.        | `Model.findAll();` `Model.findAll((row) => row.column == 'value');`
+**findAll(*option: callback*)**      | Search for multiple instances.        | `Model.findAll();`</br>`Model.findAll((row) => row.column == 'value');`
 **findOne(*callback*)**              | Find an instance by condition.        | `Model.findOne((row) => row.column == 'value');`
 **findByPk(*id*)**                   | Find an instance by id.               | `Model.findByPk(12);`
 **create(*data: object*)**           | Create an instance.                   | `Model.create({ name: 'Car', year: 2020});`
