@@ -30,11 +30,11 @@ module.exports = class ModelName extends Ormson {
 
 ### Methods
 
-Method                               | Description
------------------------------------- | --------------------------------------
-**findAll(*option: callback*)**      | Search for multiple instances.
-**findOne(*callback*)**              | Find an instance by condition.
-**findByPk(*id*)**                   | Find an instance by id.
-**create(*data: object*)**           | Create an instance.
-**update(*id, data: object*)**       | Update an instance by id.
-**destroy(*id*)**                    | Delete an instance by id.
+Method                               | Description                           | Example
+------------------------------------ | ------------------------------------- | --------------------------------------
+**findAll(*option: callback*)**      | Search for multiple instances.        | `Model.findAll();` `Model.findAll((row) => row.column == 'value');`
+**findOne(*callback*)**              | Find an instance by condition.        | `Model.findOne((row) => row.column == 'value');`
+**findByPk(*id*)**                   | Find an instance by id.               | `Model.findByPk(12);`
+**create(*data: object*)**           | Create an instance.                   | `Model.create({ name: 'Car', year: 2020});`
+**update(*id, data: object*)**       | Update an instance by id.             | `Model.create(12, { name: 'Truck', year: 2021});`
+**destroy(*id*)**                    | Delete an instance by id.             | `Model.destroy(12);`
