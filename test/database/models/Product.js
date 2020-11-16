@@ -2,8 +2,7 @@ const Ormson = require('../../../lib/Model');
 
 class Product extends Ormson {
     constructor() {
-        super('products', __dirname);
-        
+        super();
         this.define({
             name: {
                 type: String,
@@ -15,6 +14,9 @@ class Product extends Ormson {
                 required: true,
                 validator: price => price > 0
             }
+        }, {
+            tablename: 'products',
+            location: __dirname
         });
     }
 }

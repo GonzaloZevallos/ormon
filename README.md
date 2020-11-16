@@ -16,11 +16,27 @@ More info: https://github.com/GonzaloZevallos/ormson-cli
 ```js script
 const Ormson = require('ormson');
 
-module.exports = class ModelName extends Ormson {
+class Product extends Ormson {
     constructor() {
-        super('tablename', __dirname);
+        this.define({
+            name: {
+                type: String,
+                required: true,
+                validator: name => name.length > 10
+            },
+            price: {
+                type: Number,
+                required: true,
+                validator: price => price > 0
+            }
+        }, {
+            tablename: 'products',
+            location: __dirname
+        });
     }
 }
+
+module.exports = Product;
 ```
 
 ### Require example
