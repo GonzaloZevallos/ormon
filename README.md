@@ -18,6 +18,7 @@ const Ormson = require('ormson');
 
 class Product extends Ormson {
     constructor() {
+        super();
         this.define({
             name: {
                 type: String,
@@ -41,7 +42,7 @@ module.exports = Product;
 
 ### Require example
 ```js script
- const { ModelName } = require('./database/models');
+ const { Product } = require('./database/models');
 ```
 
 ### Methods
