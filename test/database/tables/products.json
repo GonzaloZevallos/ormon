@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Computadora",
+    "price": 200
+  }
+]

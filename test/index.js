@@ -1,3 +1,3 @@
 const { Product } = require('./database/models');
 
-console.log(Product.create({name: 'Cafetera', price: '1231'}));
+Product.update(1, {price: '100'});
