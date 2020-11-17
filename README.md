@@ -32,7 +32,7 @@ class Product extends Ormson {
             }
         }, {
             tablename: 'products',
-            location: __dirname
+            location: __filename
         });
     }
 }
