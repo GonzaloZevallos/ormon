@@ -6,8 +6,7 @@ class Product extends Ormson {
         this.define({
             name: {
                 type: String,
-                required: true,
-                validator: name => name.length > 10
+                required: true
             },
             price: {
                 type: Number,
