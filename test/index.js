@@ -1,3 +1,8 @@
 const { Product } = require('./database/models');
 
-console.log((Product.findAll()));
+const testObj = {
+    name: 'calculadora',
+    price: 100
+}
+
+Product.create(testObj);
